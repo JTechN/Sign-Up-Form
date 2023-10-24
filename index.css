@@ -1,0 +1,23 @@
+#coffee-background{
+    height: 100%;
+    width: 800px;
+
+
+}
+
+.right-side{
+    background-color: white;
+}
+
+.main-container{
+    display: flex;
+}
+
+body, html{
+    background-color: black;
+    height: 100%;
+}
+
+footer{
+    color: white;
+}
