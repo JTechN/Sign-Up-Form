@@ -1,16 +1,71 @@
 #coffee-background{
     height: 100%;
-    width: 800px;
-
-
-}
-
-.right-side{
-    background-color: white;
+    width: 700px;
 }
 
 .main-container{
     display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.right-side > .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.account-creation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 25px 20px;
+    background-color: white;
+
+}
+.account-creation > h3{
+    margin: 20px;
+}
+
+.account-creation > .account-creation-form{
+    display: flex;
+
+}
+
+.account-creation > .account-creation-form > #left-side > div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: auto;
+
+}
+
+.account-creation > .account-creation-form > #right-side > div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: auto;
+
+}
+
+.bottom{
+    padding: 25px;
+    height: 100%;
+}
+
+.bottom > button{
+    padding: 10px;
+    color: white;
+    background-color: #596D48;
 }
 
 body, html{
@@ -20,4 +75,8 @@ body, html{
 
 footer{
     color: white;
+}
+
+input{
+    width: 300px;
 }
