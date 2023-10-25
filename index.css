@@ -1,12 +1,30 @@
-#coffee-background{
-    height: 100%;
-    width: 700px;
-}
 
 .main-container{
     display: flex;
     justify-content: center;
     height: 100%;
+    position: relative;
+}
+
+.main-container > .left-side{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.left-side > #coffee-background{
+    height: 100%;
+    width: 700px;
+
+}
+
+.left-side > #coffee-logo{
+    height: 70px;
+    top: 70px;
+    z-index: 1;
+    position: absolute;
+    float: left;
 }
 
 .right-side{
@@ -14,6 +32,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
+
 }
 
 .right-side > .top {
@@ -22,6 +41,10 @@
     justify-content: center;
     height: 100%;
     padding: 30px;
+}
+
+.top{
+    margin: 20px;
 }
 
 .account-creation{
@@ -58,6 +81,7 @@
 }
 
 .bottom{
+    margin: 20px;
     padding: 25px;
     height: 100%;
 }
@@ -74,7 +98,9 @@ body, html{
 }
 
 footer{
-    color: white;
+    color: black;
+    position: absolute;
+    bottom: 50px;
 }
 
 input{
